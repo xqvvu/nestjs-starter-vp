@@ -9,13 +9,16 @@ allowBuilds:
   lightningcss: true
 
 catalog:
-  "@types/node": ^26.6.2
-  "@t3-oss/env-core": ^0.13.11
   vite-plus: 0.3.3
   vite: npm:@voidzero-dev/vite-plus-core@0.3.3
   tsx: ^4.23.13
   typescript: ^6.0.3
   zod: ^4.6.5
+  vitest: 4.1.11
+  "@vitest/coverage-v8": 4.1.11
+  "@vitest/ui": 4.1.11
+  "@types/node": ^26.6.2
+  "@t3-oss/env-core": ^0.13.11
 
 catalogs:
   orpc:
@@ -25,10 +28,6 @@ catalogs:
     "@orpc/openapi": 2.0.0-beta.36
     "@orpc/zod": 2.0.0-beta.36
     "@orpc/nest": 2.0.0-beta.36
-
-  test:
-    "@vitest/coverage-v8": 4.1.11
-    "@vitest/ui": 4.1.11
 
   react:
     "@types/react": ^19.3.0
@@ -55,12 +54,15 @@ catalogMode: prefer
 
 overrides:
   vite@*: "catalog:"
+  vitest@*: "catalog:"
 
 peerDependencyRules:
   allowAny:
     - vite
+    - vitest
   allowedVersions:
     vite: "*"
+    vitest: "*"
 
 minimumReleaseAgeStrict: false
 minimumReleaseAgeExcludePrune: true

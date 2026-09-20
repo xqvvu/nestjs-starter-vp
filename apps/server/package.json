@@ -21,10 +21,11 @@
   "devDependencies": {
     "@orpc/client": "catalog:orpc",
     "@types/node": "catalog:",
-    "@vitest/coverage-v8": "catalog:test",
-    "@vitest/ui": "catalog:test",
+    "@vitest/coverage-v8": "catalog:",
+    "@vitest/ui": "catalog:",
     "typescript": "catalog:",
     "vite": "catalog:",
-    "vite-plus": "catalog:"
+    "vite-plus": "catalog:",
+    "vitest": "catalog:"
   }
 }

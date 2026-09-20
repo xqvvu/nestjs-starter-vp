@@ -27,9 +27,7 @@ export default defineConfig({
     clean: true,
     minify: false,
     sourcemap: true,
-    deps: {
-      alwaysBundle: [/^@xqvvu\//],
-    },
+    deps: { resolveDepSubpath: true, alwaysBundle: [/^@xqvvu\//] },
   },
 
   run: {
