@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: voidzero-dev/setup-vp@v1.21.0
+        with:
+          node-version-file: ".node-version"
+          cache: true
+      - run: vp install --frozen-lockfile
+      - run: vp check
+      - run: vp run -r test
+      - run: vp run -r build

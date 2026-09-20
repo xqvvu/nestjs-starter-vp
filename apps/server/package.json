@@ -1,0 +1,30 @@
+{
+  "name": "@xqvvu/server",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "@nestjs/common": "catalog:nestjs",
+    "@nestjs/core": "catalog:nestjs",
+    "@nestjs/platform-fastify": "catalog:nestjs",
+    "@orpc/contract": "catalog:orpc",
+    "@orpc/nest": "catalog:orpc",
+    "@orpc/openapi": "catalog:orpc",
+    "@orpc/server": "catalog:orpc",
+    "@orpc/zod": "catalog:orpc",
+    "@t3-oss/env-core": "catalog:",
+    "@xqvvu/api": "workspace:*",
+    "@xqvvu/middlewares": "workspace:*",
+    "reflect-metadata": "catalog:nestjs",
+    "rxjs": "catalog:nestjs",
+    "zod": "catalog:"
+  },
+  "devDependencies": {
+    "@orpc/client": "catalog:orpc",
+    "@types/node": "catalog:",
+    "@vitest/coverage-v8": "catalog:test",
+    "@vitest/ui": "catalog:test",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plus": "catalog:"
+  }
+}

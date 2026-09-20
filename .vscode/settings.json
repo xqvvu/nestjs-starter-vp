@@ -1,0 +1,37 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.fixAll.oxc": "explicit",
+    "source.format.oxc": "explicit",
+    "source.fixAllDangerous.oxc": "explicit"
+  },
+
+  "files.readonlyInclude": {
+    "**/route-tree.gen.ts": true,
+    "pnpm-lock.yaml": true,
+    ".agents": true
+  },
+  "files.watcherExclude": {
+    "**/route-tree.gen.ts": true,
+    "pnpm-lock.yaml": true,
+    ".agents": true
+  },
+  "search.exclude": {
+    "**/route-tree.gen.ts": true,
+    "pnpm-lock.yaml": true,
+    ".agents": true
+  },
+
+  "yaml.format.enable": false,
+  "[yaml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[yml]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  },
+  "[typescript][javascript][json][css][typescriptreact]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "oxc.oxc-vscode"
+  }
+}
