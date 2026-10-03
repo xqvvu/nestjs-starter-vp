@@ -3,31 +3,29 @@ packages:
   - packages/*
 
 allowBuilds:
-  "@astryxdesign/cli": true
-  "@astryxdesign/core": true
   esbuild: true
   lightningcss: true
 
 catalog:
-  vite-plus: 0.3.3
-  vite: npm:@voidzero-dev/vite-plus-core@0.3.3
-  tsx: ^4.23.13
+  vite-plus: 1.0.0
+  vite: npm:@voidzero-dev/vite-plus-core@1.0.0
+  tsx: ^4.23.15
   typescript: ^6.0.3
   zod: ^4.6.5
-  vitest: 4.1.11
-  "@vitest/coverage-v8": 4.1.11
-  "@vitest/ui": 4.1.11
-  "@types/node": ^26.6.2
+  vitest: 5.0.1
+  "@vitest/coverage-v8": 5.0.1
+  "@vitest/ui": 5.0.1
+  "@types/node": ^26.6.4
   "@t3-oss/env-core": ^0.13.11
 
 catalogs:
   orpc:
-    "@orpc/client": 2.0.0-beta.36
-    "@orpc/contract": 2.0.0-beta.36
-    "@orpc/server": 2.0.0-beta.36
-    "@orpc/openapi": 2.0.0-beta.36
-    "@orpc/zod": 2.0.0-beta.36
-    "@orpc/nest": 2.0.0-beta.36
+    "@orpc/client": 2.0.0-beta.41
+    "@orpc/contract": 2.0.0-beta.41
+    "@orpc/server": 2.0.0-beta.41
+    "@orpc/openapi": 2.0.0-beta.41
+    "@orpc/zod": 2.0.0-beta.41
+    "@orpc/nest": 2.0.0-beta.41
 
   react:
     "@types/react": ^19.3.0
@@ -37,15 +35,15 @@ catalogs:
     react-dom: ^19.3.0
 
   nestjs:
-    "@nestjs/cli": ^12.0.3
+    "@nestjs/cli": ^12.0.8
     "@nestjs/mau": ^0.2.8
-    "@nestjs/schematics": ^12.0.3
-    "@nestjs/testing": ^12.0.3
+    "@nestjs/schematics": ^12.0.6
+    "@nestjs/testing": ^12.1.2
     "@types/express": ^5.0.6
-    "@nestjs/common": ^12.0.3
-    "@nestjs/core": ^12.0.3
+    "@nestjs/common": ^12.1.2
+    "@nestjs/core": ^12.1.2
     "@nestjs/observe": ^0.1.10
-    "@nestjs/platform-fastify": ^12.0.3
+    "@nestjs/platform-fastify": ^12.1.2
     fastify: ^5.12.5
     reflect-metadata: ^0.2.2
     rxjs: ^7.8.2
